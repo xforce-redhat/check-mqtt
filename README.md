@@ -91,7 +91,7 @@ There are no required arguments, defaults are displayed using `--help`. If `--wa
   used to connect to a MQTT broker
   
   <dt>cafile certfile keyfile insecure</dt>
-  optional used for a encryptet TLS connection, for details see <a href="https://mosquitto.org/man/mosquitto-conf-5.html" target="_blank">mosquitto.conf</a> - Certificate based SSL/TLS Support.
+  optional used for a encrypted TLS connection, for details see <a href="https://mosquitto.org/man/mosquitto-conf-5.html" target="_blank">mosquitto.conf</a> - Certificate based SSL/TLS Support.
   
   <dt>max_wait</dt>
   <dd>is the time (integer) we're willing to wait for a SUB to the topic we PUBlish on. If we don't receive the MQTT PUB within this many seconds we exist with _CRITICAL_</dd>
